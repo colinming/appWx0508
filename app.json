@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movies/movies",
+    "pages/switchcity/switchcity",
+    "pages/weather/weather",
+    "pages/news/news",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/more-movie/more-movie",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Index",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "backgroundColor": "#fff",
+    "color": "#808080",
+    "selectedColor": "#ee4a39",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Index",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_sel.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "Around",
+        "iconPath": "images/around.png",
+        "selectedIconPath": "images/around_sel.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "Movie",
+        "iconPath": "images/movie.png",
+        "selectedIconPath": "images/movie_sel.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "News",
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news_sel.png"
+      }
+    ]
+  }
+}
