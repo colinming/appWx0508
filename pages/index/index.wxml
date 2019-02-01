@@ -24,6 +24,9 @@
     <icon type="download" size="18" color='#2a579a' class='changeCity'/>
     <text>更改定位</text>  
   </view>
+
+  <navigator url="/page/map/map.wxml" hover-class="navigator-hover" style='display: block;'>跳转到新页面</navigator>
+
   <view class="weatherwrap" bindtap='gotoWeather'>
     <!--显示当天的天气信息-->
     <view class="info">
